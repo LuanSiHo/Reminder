@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/search_edit_frame"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    style="@style/toolbarStyle"
+    android:background="@color/colorPrimary">
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/ic_default" />
+
+    <android.support.v7.widget.AppCompatSpinner
+        android:id="@+id/spinner"
+        android:layout_width="130dp"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.AppCompatSpinner>
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginRight="16dp"
+        android:id="@+id/img_btn_search"
+        android:background="@drawable/search_button_shape"
+        android:src="@drawable/ic_search" />
+
+</android.support.v7.widget.Toolbar>

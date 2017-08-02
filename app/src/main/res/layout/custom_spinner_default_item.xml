@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimary"
+    android:gravity="center|start"
+    >
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:id="@+id/tv_list_name_default"
+        android:textColor="#fff"
+        android:textSize="19sp"
+        android:gravity="bottom|start"
+        android:layout_margin="5dp"
+        android:text="Hello"/>
+
+</LinearLayout>

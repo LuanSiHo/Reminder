@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:weightSum="10"
+    android:padding="16dp"
+    android:background="#fff"
+    android:layout_marginBottom="1dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_weight="7"
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="#000"
+            android:id="@+id/tv_task_type_name"
+            android:text="Task type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textColor="#000"
+            android:id="@+id/tv_amount_of_task"
+            android:text="Number of task"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_weight="3"
+        android:layout_width="0dp"
+        android:weightSum="10"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/img_btn_edit_task_type"
+            android:background="@android:color/transparent"
+            android:layout_weight="5"
+            android:src="@drawable/ic_edit_task_type"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <ImageButton
+            android:id="@+id/img_btn_delete_task_type"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_delete_task_type_blue"
+            android:layout_weight="5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">13.333333dp</dimen>
+    <dimen name="activity_vertical_margin">13.333333dp</dimen>
+    <dimen name="fab_margin">16.0dp</dimen>
+    <dimen name="spinner_margin">5.0dp</dimen>
+    <dimen name="activity_new_task_title_margin_horizontal">10.0dp</dimen>
+    <dimen name="activity_new_task_content_margin">10dp</dimen>
+    <dimen name="activity_new_task_title_padding">36.0dp</dimen>
+</resources>
