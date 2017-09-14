@@ -211,7 +211,6 @@ public class MainActivity extends AppCompatActivity implements ViewMainActivityL
      */
     @Override
     public void getTaskListResult(ArrayList<TaskItem> taskItems) {
-        Log.d("hoho", "1");
         if (taskItems.size() == 0) {
             EmptyListFragment emptyListFragment = new EmptyListFragment();
             FragmentManager fragmentManager = getSupportFragmentManager();
@@ -224,8 +223,6 @@ public class MainActivity extends AppCompatActivity implements ViewMainActivityL
             Bundle bundle = new Bundle();
             if (checkedPosition >= taskItems.size()) {
                 checkedPosition = 0;
-
-
             }
             bundle.putInt(CHECKED_POSTION, checkedPosition);
             bundle.putBoolean(RECYCLERVIEW_ITEM_CAN_CLICK, isLongClick);

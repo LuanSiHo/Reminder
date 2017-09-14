@@ -6,4 +6,6 @@
 <dimen name="fab_margin">19.2dp</dimen>
 <dimen name="activity_new_task_content_margin">12.0dp</dimen>
 <dimen name="activity_new_task_title_margin_horizontal">12.0dp</dimen>
+    <dimen name="tv_task_type_size">16sp</dimen>
+
 </resources>

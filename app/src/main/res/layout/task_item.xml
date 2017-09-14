@@ -9,23 +9,25 @@
     android:padding="10dp"
     android:weightSum="10">
 
-    <FrameLayout
+    <LinearLayout
+        android:gravity="center"
         android:layout_width="0dp"
         android:layout_height="match_parent"
+        android:layout_gravity="center"
         android:layout_weight="2">
 
         <ImageView
             android:id="@+id/img_task_icon"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_width="@dimen/img_task_item_size"
+            android:layout_height="@dimen/img_task_item_size"
             android:layout_marginRight="10dp"
             android:src="@mipmap/ic_launcher" />
-    </FrameLayout>
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_weight="7"
+        android:layout_weight="7.25"
         android:orientation="vertical">
 
         <TextView
@@ -47,6 +49,7 @@
             android:textSize="14sp" />
 
         <TextView
+            android:textColor="@color/textColorPrimary"
             android:id="@+id/tv_task_type"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -57,5 +60,5 @@
         android:id="@+id/checkbox_task_item"
         android:layout_width="0dp"
         android:layout_height="30dp"
-        android:layout_weight="1" />
+        android:layout_weight="0.75" />
 </LinearLayout>

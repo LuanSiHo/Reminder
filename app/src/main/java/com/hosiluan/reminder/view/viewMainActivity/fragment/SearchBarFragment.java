@@ -45,7 +45,6 @@ public class SearchBarFragment extends Fragment implements View.OnClickListener 
             @Override
             public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {
 //                ((MainActivity) getActivity()).findTaskItem(String.valueOf(charSequence));
-
             }
 
             @Override
@@ -60,7 +59,6 @@ public class SearchBarFragment extends Fragment implements View.OnClickListener 
                 if (editable.length() == 0) {
                     ((MainActivity) getActivity()).mPresenterMainActivity.loadTaskList();
                 }
-
             }
         });
         return view;

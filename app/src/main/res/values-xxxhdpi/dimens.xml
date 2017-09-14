@@ -1,9 +1,12 @@
 <resources>
-<dimen name="activity_new_task_title_padding">108.0dp</dimen>
-<dimen name="spinner_margin">15.0dp</dimen>
-<dimen name="activity_vertical_margin">40.0dp</dimen>
-<dimen name="activity_horizontal_margin">40.0dp</dimen>
-<dimen name="fab_margin">48.0dp</dimen>
-<dimen name="activity_new_task_content_margin">30.0dp</dimen>
-<dimen name="activity_new_task_title_margin_horizontal">30.0dp</dimen>
+    <dimen name="activity_new_task_title_padding">108.0dp</dimen>
+    <dimen name="spinner_margin">15.0dp</dimen>
+    <dimen name="activity_vertical_margin">40.0dp</dimen>
+    <dimen name="activity_horizontal_margin">40.0dp</dimen>
+    <dimen name="fab_margin">48.0dp</dimen>
+    <dimen name="activity_new_task_content_margin">30.0dp</dimen>
+    <dimen name="activity_new_task_title_margin_horizontal">30.0dp</dimen>
+    <dimen name="img_task_item_size">50dp</dimen>
+    <dimen name="tv_task_type_size">20sp</dimen>
+
 </resources>

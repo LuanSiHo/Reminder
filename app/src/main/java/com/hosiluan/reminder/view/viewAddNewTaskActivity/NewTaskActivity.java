@@ -47,7 +47,6 @@ import static com.hosiluan.reminder.view.viewMainActivity.adapter.RecyclerViewTa
 import static com.hosiluan.reminder.view.viewMainActivity.adapter.RecyclerViewTaskListAdapter.TASK_TITLE_BUNDLE;
 import static com.hosiluan.reminder.view.viewMainActivity.adapter.RecyclerViewTaskListAdapter.TASK_TYPE_BUNDLE;
 
-
 public class NewTaskActivity extends AppCompatActivity implements ViewAddNewTaskActivityListener, RecyclerViewCustomRepeatAdapterListener {
     private EditText mEdtDate;
     private EditText mEdtTime;
@@ -90,8 +89,6 @@ public class NewTaskActivity extends AppCompatActivity implements ViewAddNewTask
         setEvent();
 
         presenterAddNewTaskActivity = new PresenterAddNewTaskActivity(getApplicationContext(), this);
-
-
     }
 
     @Override
